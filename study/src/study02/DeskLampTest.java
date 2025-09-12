@@ -14,7 +14,6 @@ public class DeskLampTest {
 		myLamp.turnOFF();
 		System.out.println(myLamp.toString());
 				
-		
 	}
 
 }

@@ -10,7 +10,7 @@ public class Box {
 	public Box(int w, int l, int h) { //생성자를 사용하여 Class멤버변수 SET
 		this.width = w;
 		this.height = l;
-		this.height = h;
+		this.length = h;
 	}
 
 	public double getVolume() {

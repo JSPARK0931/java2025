@@ -14,10 +14,15 @@ public class BookTest {
 		bookList[1] = new Book("홍길동", "허균");
 		
 		for(Book item:bookList) {
+			
 			if (item != null) {
+				//System.out.println(item);
+				item.setBookName("TEST");
 				System.out.println(item.getBookName());
+				System.out.println(item.getAuthor());
 			}	
 		}
+		
 		
 		
 	}

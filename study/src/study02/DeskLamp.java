@@ -8,10 +8,12 @@ public class DeskLamp {
 
 	public void turnOn() {
 		isOn = true;
+		color = "YELLOW";
 	}
 
 	public void turnOFF() {
 		isOn = false;
+		color = "NONE";
 	}
 	
 //	@Override 

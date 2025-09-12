@@ -16,6 +16,7 @@ public class TestClass01 {
 		for (int i = 0; i < str.length; i++) {
 			System.out.println("지역 [" + i + "] : " + str[i]);
 		}
+
 		// foreach
 		for (String city : str) {
 			System.out.println(city);
@@ -53,7 +54,7 @@ public class TestClass01 {
 //		for(int i;name) {
 //			System.out.println(i);
 //		}
-		
+
 	}
 
 }
