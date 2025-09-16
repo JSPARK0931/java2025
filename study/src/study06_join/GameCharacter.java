@@ -12,7 +12,7 @@ public class GameCharacter {
 	}
 	
 	public void showInfo() {
-		System.out.println("이름 :" + name + "레벨:" + level + "HP:" + hp);
+		System.out.println("이름 :" + name + ", 레벨:" + level + ", HP:" + hp);
 	}
 	
 	public void attack() {

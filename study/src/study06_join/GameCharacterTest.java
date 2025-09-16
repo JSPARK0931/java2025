@@ -7,7 +7,7 @@ public class GameCharacterTest {
 		GameCharacter c1 = new Warrior("전사", 100, 200, "장검");
 		c1.showInfo();
 		c1.attack();
-		
+				
 		GameCharacter c2 = new Mage("법사", 50, 100, "원거리");
 		c2.showInfo();
 		c2.attack();
