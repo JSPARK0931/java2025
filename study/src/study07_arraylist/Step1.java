@@ -28,7 +28,7 @@ public class Step1 {
 		//set value : modify
 		System.out.println(fruits.set(1, "자두"));
 		System.out.println(fruits.get(1));
-		System.out.println("------------------------------------");		
+		System.out.println("------------------------------------");							
 		//remove
 		System.out.println(fruits.remove(0));
 		System.out.println(fruits);
