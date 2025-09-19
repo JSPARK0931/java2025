@@ -28,5 +28,9 @@ public class Menu {
 		this.price = price;
 	}
 	
+	public int getPrice() {
+		return this.price;
+		
+	}
 	
 }

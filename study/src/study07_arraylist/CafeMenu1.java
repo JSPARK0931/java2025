@@ -40,9 +40,18 @@ public class CafeMenu1 {
 						System.out.println("등록된 메뉴가 없습니다.");
 					}else{
 						System.out.println("카페메뉴 : ");
+						int sum = 0;
+						int avg = 0;
 						for(int i=0;i<menuList.size();i++) {
-							System.out.println((i+1)+". " + menuList.get(i));
+							System.out.println((i+1)+". " + menuList.get(i).toString());
+							sum = sum + menuList.get(i).getPrice();
 						}
+						avg = sum/menuList.size();
+						System.out.println("-----------------------------");
+						System.out.println("총메뉴겟수   :" + menuList.size());
+						System.out.println("총메뉴평균가격:" + avg + "원");
+						System.out.println("-----------------------------");
+				
 					}
 	
 					break;
