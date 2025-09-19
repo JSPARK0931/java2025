@@ -20,6 +20,7 @@ public class CafeMenu1 {
 			System.out.print("번호를 선택하세요 : ");
 			
 			int choice = sc.nextInt();
+			
 			sc.nextLine(); // 버퍼비우기
 			
 			switch(choice) {
@@ -43,8 +44,7 @@ public class CafeMenu1 {
 							System.out.println((i+1)+". " + menuList.get(i));
 						}
 					}
-					
-					
+	
 					break;
 				case 3:
 					System.out.println("수정할 번호 입력 : ");
@@ -58,15 +58,17 @@ public class CafeMenu1 {
 						int newPrice = sc.nextInt();
 						sc.nextLine();
 						
-						menuList.get(updateIndex).setName(newName);
-						menuList.get(updateIndex).setPrice(newPrice);
+						// 방법#1
+//						menuList.get(updateIndex).setName(newName);
+//						menuList.get(updateIndex).setPrice(newPrice);
+						
+						menuList.get(updateIndex).setnewNenu(newName, newPrice);
 	
 						System.out.println("메뉴가 수정되었습니다.");
 					}else {
 						System.out.println("잘못된 번호입니다.");
 					}
-					
-					
+	
 					
 					break;
 				case 4:

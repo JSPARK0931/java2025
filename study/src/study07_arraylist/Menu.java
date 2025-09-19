@@ -22,5 +22,11 @@ public class Menu {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-		
+	
+	public void setnewNenu(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	
 }
