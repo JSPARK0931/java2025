@@ -16,5 +16,9 @@ public class DeskTop extends Computer{
 	public void turnOn() {
 		System.out.println("DeskTop을 켭니다.");		
 	}
+	
+	public void fn_test() {
+		System.out.println("function Test");	
+	}
 
 }

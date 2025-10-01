@@ -4,20 +4,21 @@ public class Notebook extends Computer {
 
 	@Override
 	public void display() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Notebook display");
 	}
 
 	@Override
 	public void turnOn() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Notebook turnOn");
 	}
 
 	@Override
 	public void turnOff() {
-		// TODO Auto-generated method stub
+		System.out.println("Notebook turnOff");
+	}
+	
+	public void fn_notebook() {
+		System.out.println("fn_notebook function!!");
 		
 	}
-
 }

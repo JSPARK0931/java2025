@@ -32,8 +32,8 @@ public class CafeMenu_test {
 						System.out.println("등록된메뉴가없습니다...");
 					}
 					else {
-						for(i=0;i<menuList.size();i++) {
-							System.out.println((i+1) + ". " + munuList.get(i).toString());
+						for(int i=0;i<menuList.size();i++) {
+							System.out.println((i+1) + ". " + menuList.get(i).toString());
 						}
 					}
 				case 3:
